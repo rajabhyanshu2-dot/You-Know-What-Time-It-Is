@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>Image Merge & Shake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <h2>Upload 2 Images & Choose Audio</h2>
+
+  <input type="file" id="img1" accept="image/*">
+  <input type="file" id="img2" accept="image/*">
+
+  <br><br>
+
+  <label for="audioSelect">Choose Audio:</label>
+  <select id="audioSelect">
+    <option value="MATERIAL/AUDIO.mp3">Funny Sound</option>
+    <option value="audio2.mp3">Robot Voice</option>
+  </select>
+
+  <div class="image-container" id="images">
+    <img id="imageLeft" alt="Image 1">
+    <img id="imageRight" alt="Image 2">
+  </div>
+
+  <button id="mergeButton">BUTTON</button>
+
+  <audio id="audio"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
